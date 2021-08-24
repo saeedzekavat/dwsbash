@@ -1,0 +1,2 @@
+# dwsbash
+practice using bash
