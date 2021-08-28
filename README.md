@@ -1,16 +1,30 @@
-# dwsbash
-practice using bash
-### My first repository is awesome!
+Bash scripting 
 
-I'm Saeed Zekavat and here it's my first GitHub repository.
-If you see this file on my project, it's because I'm learning Git.
 
-My mood:
 
-> DevOps
 
-My favorite color:
+Examples
 
-> Green
 
-Thank you so much for reading!
+
+Articles
+
+
+Tools
+
+
+
+
+Get Feedback
+
+feedmereadmes - Free README editing+feedback to make your open-source projects grow. See the README maturity model to help you keep going.
+maintainer.io - Free README standardization and feedback, if you click on 'Book an audit'.
+This repository. Submit a PR with your README!
+
+Contribute
+Contributions are always welcome! Please read the contribution guidelines first.
+
+License
+GNU GPL v3
+
+To the extent possible under law, Saeed Zekavat has waived all copyright and related or neighboring rights to this work.
