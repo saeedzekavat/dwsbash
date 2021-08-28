@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+#Provided by @SaeedZekavat
+#https://www.linkedin.com/in/zekavat
+
+
+# Get the options
+while getopts "i:n:c:" arg; do
+	case $arg in 
+				i)
+					#Time interval argument, reading firt argument
+					interval=$OPTARG
+					;;
+				n)
+					#Number, reading second argument
+					counter=$OPTARG
+					;;
+				c)
+					#command
+					cmd=$OPTARG
+					;;
+				\? )
+					#print option error
+					echo "Invalid option: $OPTARG" 1>&2
+					;;
+				: ) 
+					#print argument error
+					echo "Invalid option: $OPTARG requires an argument" 1>&2
+					;;
+	esac
+done
+	i=0
+	while [[ i -lt $counter ]]; do
+		$cmd
+		exit=$?
+		((i++))
+		if [[ $exit == 0 ]]; then
+			printf '%s\n' "Congrate, Internet UP&Running, 100% packet recived"
+			break
+		elif [[ $exit -ge 1 ]]; then
+			printf '%s\n' "Poor You, No Internet Connection, Packet lost"
+			sleep $interval
+		fi
+	
+	done
