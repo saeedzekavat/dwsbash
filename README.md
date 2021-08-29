@@ -35,3 +35,5 @@ GNU GPL v3
 
 To the extent possible under law, 'Saeed Zekavat' has waived all copyright and related or neighboring rights to this work.
 Aug, 2021
+
+[@dwsclass](https://github.com/dwsclass) dws-dev-009-bash
