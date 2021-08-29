@@ -5,7 +5,8 @@ Instruction:
 please put the dwsapp bash file to your /usr/local/bin which helps you to execute it as a bash terminal command.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Argument Options (flag)
+Argument Options (flag):
+
 -i  time interval
 -n  number of retry
 -c  command
@@ -13,8 +14,10 @@ Argument Options (flag)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Examples:
 
-dwsapp -i 15 -n 10 -c "ping -c 2 4.2.2.4"    ;it will return you true exit code, break the loob and print  "Congrate, Internet UP&Running, 100% packet recived"
-dwsapp -i 15 -n 10 -c "ping -c 2 4.2.2.23"    ;it will return you false exit code and print "Poor You, No Internet Connection, Packet lost" it will retry 10 times and there is an 15 seconds interval between exch effort,
+dwsapp -i 15 -n 10 -c "ping -c 2 4.2.2.4"   
+#it will return you true exit code, break the loob and print  "Congrate, Internet UP&Running, 100% packet recived"
+dwsapp -i 15 -n 10 -c "ping -c 2 4.2.2.23"    
+#it will return you false exit code and print "Poor You, No Internet Connection, Packet lost" it will retry 10 times and there is an 15 seconds interval between exch effort,
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Articles:
