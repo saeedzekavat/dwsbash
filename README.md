@@ -1,12 +1,12 @@
-# **DWSAPP-BashPractice006**
+## **DWSAPP-BashPractice006**
 
 > Bash script to handle a command with argument options and argument values.
 
-# Installation
+### Installation
 
 > Put the dwsapp bash file to your **/usr/local/bin **which helps you to execute it as a bash terminal command.
 
-## Argument Options (Usage)
+### Argument Options (Usage)
 
 
 | flag | Description     |
@@ -15,7 +15,7 @@
 | -n   | number of retry |
 | -c   | command         |
 
-# Examples
+### Examples
 
 `dwsapp -i 15 -n 10 -c "ping -c 2 4.2.2.4"`
 
@@ -37,17 +37,19 @@ if
 
 ### Get Feedback
 
-It is my pleasure so let me know your comments,
-Email: zekavat@outlook.com
-github: https://github.com/saeedzekavat
+> It is my pleasure so let me know your comments;
+>
+> Email: zekavat@outlook.com
+>
+> github: https://github.com/saeedzekavat
 
 ### Contribute
 
 Contributions are always welcome! Please read the contribution guidelines first.
 
-# License
+### License
 
-GNU GPL v3
+> GNU GPL v3
 
 ---
 
