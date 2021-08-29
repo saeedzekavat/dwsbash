@@ -11,32 +11,38 @@ Argument Options (flag)
 -c  command
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Examples
+Examples:
+
 dwsapp -i 15 -n 10 -c "ping -c 2 4.2.2.4"    ;it will return you true exit code, break the loob and print  "Congrate, Internet UP&Running, 100% packet recived"
 dwsapp -i 15 -n 10 -c "ping -c 2 4.2.2.23"    ;it will return you false exit code and print "Poor You, No Internet Connection, Packet lost" it will retry 10 times and there is an 15 seconds interval between exch effort,
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Articles
+Articles:
+
 Reading about the structure of 'While getops' to informing handling options with value
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Tools
+Tools:
+
 bash scripts,
 while loop
 if 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Get Feedback
+Get Feedback:
+
 It is my pleasure so let me know your comments,
 Email: zekavat@outlook.com
 github: https://github.com/saeedzekavat
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Contribute
+Contribute:
+
 Contributions are always welcome! Please read the contribution guidelines first.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-License
+License:
+
 GNU GPL v3
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
