@@ -1,7 +1,9 @@
 Bash script to handle a command with argument options and argument values.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Instruction:
 please put the dwsapp bash file to your /usr/local/bin which helps you to execute it as a bash terminal command.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Argument Options (flag)
 -i  time interval
