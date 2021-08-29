@@ -1,59 +1,59 @@
-Bash script to handle a command with argument options and argument values.
+# **DWSAPP-BashPractice006**
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Instruction:
-please put the dwsapp bash file to your /usr/local/bin which helps you to execute it as a bash terminal command.
+> Bash script to handle a command with argument options and argument values.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Argument Options (flag):
+# Installation
 
--i  time interval
+> Put the dwsapp bash file to your **/usr/local/bin **which helps you to execute it as a bash terminal command.
 
--n  number of retry
+## Argument Options (Usage)
 
--c  command
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Examples:
+| flag | Description     |
+| ------ | ----------------- |
+| -i   | time interval   |
+| -n   | number of retry |
+| -c   | command         |
 
-dwsapp -i 15 -n 10 -c "ping -c 2 4.2.2.4"   
-#it will return you true exit code, break the loob and print  "Congrate, Internet UP&Running, 100% packet recived"
+# Examples
 
-dwsapp -i 15 -n 10 -c "ping -c 2 4.2.2.23"    
-#it will return you false exit code and print "Poor You, No Internet Connection, Packet lost" it will retry 10 times and there is an 15 seconds interval between exch effort,
+`dwsapp -i 15 -n 10 -c "ping -c 2 4.2.2.4"`
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Articles:
+> ##It will return you true exit code, break the loob and print  "Congrate, Internet UP&Running, 100% packet recived"
 
-Reading about the structure of 'While getops' to informing handling options with value
+`dwsapp -i 15 -n 10 -c "ping -c 2 4.2.2.23"`
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Tools:
+> ##It will return you false exit code and print "Poor You, No Internet Connection, Packet lost" it will retry 10 times and there is an 15 seconds interval between exch effort,
+
+### Articles
+
+> Reading about the structure of 'While getops' to informing handling options with value
+
+### Tools
 
 bash scripts,
 while loop
-if 
+if
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Get Feedback:
+### Get Feedback
 
 It is my pleasure so let me know your comments,
 Email: zekavat@outlook.com
 github: https://github.com/saeedzekavat
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Contribute:
+### Contribute
 
 Contributions are always welcome! Please read the contribution guidelines first.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-License:
+# License
 
 GNU GPL v3
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-To the extent possible under law, 'Saeed Zekavat' has waived all copyright and related or neighboring rights to this work.
-Aug, 2021
+---
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-[@dwsclass](https://github.com/dwsclass) dws-dev-009-bash
+> To the extent possible under law, 'Saeed Zekavat' has waived all copyright and related or neighboring rights to this work.
+> Aug, 2021
+
+---
+
+> [@dwsclass](https://github.com/dwsclass) dws-dev-009-bash
